@@ -1,24 +1,10 @@
+
 <div align="center">
-
-<img src="assets/promptforge-banner.svg" alt="PromptForge: Prompt Quality & Security Studio" width="100%" />
-
-<br />
-
-**DESIGN THE PROMPT · TEST THE QUALITY · ATTACK THE WEAKNESS · HARDEN THE DEFENSE**
-
-<br />
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-LLM_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-Run_Library-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-
-**Four real-world domains** &nbsp;•&nbsp; **Six-stage pipeline** &nbsp;•&nbsp; **Five attack families** &nbsp;•&nbsp; **Four defense layers**
-
-[Overview](#-the-idea) · [Domains](#-four-real-world-domains) · [Pipeline](#-the-six-stage-forge-pipeline) · [Security](#-attack-lab-five-prompt-injection-families) · [Results](#-experimental-results) · [Quick Start](#-quick-start) · [Architecture](#-architecture)
-
+  <img src="assets/promptforge-banner.png"
+       alt="PromptForge - Prompt Quality and Security Studio"
+       width="950">
 </div>
+
 
 ---
 
