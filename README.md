@@ -419,16 +419,6 @@ For decision tasks, the `hijack` value specifies the attacker-desired outcome. *
 
 ---
 
-## 👥 Project team
-
-**Samruddhi Chavan · Rucha Bandewar · Shweta Birle · Bhagyashri Ahire · Ketaki Bhagat**
-
-TY B.Tech, Computer Science & Engineering (Data Science)  
-**Vishwakarma Institute of Technology, Pune**  
-*Prompt Engineering · Course Project*
-
----
-
 <div align="center">
 
 ### ✦ A good prompt should be measurable. A trusted prompt should be tested.
