@@ -1,5 +1,30 @@
+# API keys and environment files
 .env
+.env.*
+!.env.example
+
+# Python virtual environments
 venv/
+.venv/
+env/
+
+# Python cache
 __pycache__/
-data/
 *.pyc
+*.pyo
+.pytest_cache/
+
+# Local application data
+data/
+*.db
+*.sqlite3
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log
+logs/
