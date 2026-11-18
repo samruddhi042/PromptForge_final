@@ -1,0 +1,115 @@
+/* Theme tokens supplied by the user (light = :root, dark = .dark). Used by style.css.
+   The @theme block at the bottom is Tailwind-only syntax; plain browsers ignore it, so it is harmless here. */
+:root {
+  --card: #ffffff;
+  --ring: #34a85a;
+  --input: #d4d4d4;
+  --muted: #ddd9c4;
+  --accent: #66d9ef;
+  --border: #d4d4d4;
+  --radius: 0.5rem;
+  --chart-1: #34a85a;
+  --chart-2: #6495ed;
+  --chart-3: #66d9ef;
+  --chart-4: #4682b4;
+  --chart-5: #1a9641;
+  --popover: #ffffff;
+  --primary: #34a85a;
+  --sidebar: #f9f9fa;
+  --font-mono: JetBrains Mono, monospace;
+  --font-sans: Plus Jakarta Sans, sans-serif;
+  --secondary: #6495ed;
+  --background: #f9f9fa;
+  --font-serif: Source Serif 4, serif;
+  --foreground: #333333;
+  --destructive: #ef4444;
+  --sidebar-ring: #34a85a;
+  --sidebar-accent: #66d9ef;
+  --sidebar-border: #d4d4d4;
+  --card-foreground: #333333;
+  --sidebar-primary: #34a85a;
+  --muted-foreground: #6e6e6e;
+  --accent-foreground: #333333;
+  --popover-foreground: #333333;
+  --primary-foreground: #ffffff;
+  --sidebar-foreground: #333333;
+  --secondary-foreground: #ffffff;
+  --destructive-foreground: #ffffff;
+  --sidebar-accent-foreground: #333333;
+  --sidebar-primary-foreground: #ffffff;
+}
+
+.dark {
+  --card: #2f3436;
+  --ring: #34a85a;
+  --input: #444444;
+  --muted: #444444;
+  --accent: #6495ed;
+  --border: #444444;
+  --radius: 0.5rem;
+  --chart-1: #34a85a;
+  --chart-2: #4682b4;
+  --chart-3: #6495ed;
+  --chart-4: #66d9ef;
+  --chart-5: #1a9641;
+  --popover: #2f3436;
+  --primary: #34a85a;
+  --sidebar: #1a1d23;
+  --secondary: #4682b4;
+  --background: #1a1d23;
+  --foreground: #e5e5e5;
+  --destructive: #ef4444;
+  --sidebar-ring: #34a85a;
+  --sidebar-accent: #6495ed;
+  --sidebar-border: #444444;
+  --card-foreground: #e5e5e5;
+  --sidebar-primary: #34a85a;
+  --muted-foreground: #a3a3a3;
+  --accent-foreground: #e5e5e5;
+  --popover-foreground: #e5e5e5;
+  --primary-foreground: #ffffff;
+  --sidebar-foreground: #e5e5e5;
+  --secondary-foreground: #e5e5e5;
+  --destructive-foreground: #ffffff;
+  --sidebar-accent-foreground: #e5e5e5;
+  --sidebar-primary-foreground: #ffffff;
+}
+
+@theme inline {
+  --color-card: var(--card);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-radius: var(--radius);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-popover: var(--popover);
+  --color-primary: var(--primary);
+  --color-sidebar: var(--sidebar);
+  --color-font-mono: var(--font-mono);
+  --color-font-sans: var(--font-sans);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-font-serif: var(--font-serif);
+  --color-foreground: var(--foreground);
+  --color-destructive: var(--destructive);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-card-foreground: var(--card-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+}
